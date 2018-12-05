@@ -316,7 +316,7 @@ footer .copyright {
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
 }
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
   padding-left: 14px;
   border-left: 1px solid #eeeeee;
 }
@@ -399,5 +399,5 @@ body {
   -webkit-tap-highlight-color: #0085A1;
 }
 .black {
-  color: #000000;
+  font-color: #000000;
 }
